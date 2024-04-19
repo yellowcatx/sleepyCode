@@ -1,0 +1,41 @@
+{
+  "main": "index.js",
+  "repository": "https://github.com/yellowcatx/themes.git",
+  "author": "isabeli <132619246+yellowcatx@users.noreply.github.com>",
+  "license": "MIT",
+  "name": "sleepycode",
+  "description": "darkTheme",
+  "displayName": "Sleepy Code",
+  "version": "0.0.0",
+  "icon": "assets/cat.png",
+  "keywords": [
+    "theme",
+    "dark",
+    "purple",
+    "dark theme"
+  ],
+  "publisher": "yellowcat",
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Coding",
+        "uiTheme": "vs-dark",
+        "path": "dark-colours-color-theme.json"
+      }
+    ]
+  },
+  "activationEvents": [],
+  "scripts": {
+    "package": "vsce package --no-yarn",
+    "publish": "vsce publish --no-yarn"
+  },
+  "devDependencies": {
+    "vsce": "^2.15.0"
+  }
+}
